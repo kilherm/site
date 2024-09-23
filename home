@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Acesso</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px;
+        }
+        .area {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 30%;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .area h2 {
+            color: #333;
+        }
+        .area p {
+            color: #666;
+        }
+        .area a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .area a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Portal de Acesso
+</header>
+
+<div class="container">
+    <!-- Área de Membros -->
+    <div class="area">
+        <h2>Área de Membros</h2>
+        <p>Acesso exclusivo para os membros da equipe. Aqui você encontrará o calendário, informações sobre a equipe e outras ferramentas importantes.</p>
+        <a href="area-membros.html">Acessar Área de Membros</a>
+    </div>
+
+    <!-- Área Administrativa -->
+    <div class="area">
+        <h2>Área Administrativa</h2>
+        <p>Seção restrita aos administradores. Gerencie os membros da equipe, adicione novos cadastros e emita cartões de clube. Aqui você também pode alterar o status dos membros (ativo/inativo).</p>
+        <a href="area-administrativa.html">Acessar Área Administrativa</a>
+    </div>
+
+    <!-- Área de Empresas -->
+    <div class="area">
+        <h2>Área de Empresas</h2>
+        <p>Acesso para empresas parceiras. Consulte a lista de membros da equipe e verifique o status (ativo/inativo).</p>
+        <a href="area-empresas.html">Acessar Área de Empresas</a>
+    </div>
+</div>
+
+</body>
+</html>
